@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telur Asin Nusantara - Agrotech Innovation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Telur Asin Nusantara</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#process">Teknologi</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h2>Inovasi Rasa,<br>Berbasis Riset Ilmiah.</h2>
+                <p>Dari laboratorium Politeknik Manufaktur Bandung ke meja makan Anda. Telur asin premium dengan integrasi teknologi hulu ke hilir.</p>
+                <a href="#products" class="btn">Pesan Sekarang</a>
+            </div>
+            <div class="hero-image">
+                <img src="logo.png" alt="Logo Telur Asin Nusantara" class="floating-logo" style="border-radius: 50%;"> 
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h3>Tentang Kami</h3>
+                <p>Agrotech & Pemberdayaan</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <i class="fas fa-flask"></i>
+                    <h4>Lahir dari Riset</h4>
+                    <p>Dikembangkan oleh tim mahasiswa Politeknik Manufaktur Bandung (Polman) melalui penelitian mendalam untuk menghasilkan telur asin berkualitas tinggi.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-leaf"></i>
+                    <h4>Pakan Azolla Mandiri</h4>
+                    <p>Kami memproduksi pakan berbasis Azolla secara mandiri. Nutrisi terukur, biaya efisien, menghasilkan kuning telur yang lebih masir dan sehat.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-users"></i>
+                    <h4>Sistem Inti Plasma</h4>
+                    <p>Berkolaborasi dengan peternak dan pengrajin lokal. Kami memberikan standar operasional prosedur (SOP) ketat untuk menjamin kesejahteraan mitra.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="section alt-bg">
+        <div class="container">
+            <div class="section-header">
+                <h3>Standar Kualitas</h3>
+                <p>Presisi dalam setiap butir</p>
+            </div>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h4>Presisi Nutrisi</h4>
+                    <p>Bebek mendapat jatah pakan terukur setiap hari demi kualitas telur yang konsisten.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h4>Standarisasi Proses</h4>
+                    <p>Tingkat keasinan, suhu pemasakan, hingga durasi pemeraman diatur secara ilmiah.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h4>Inovasi Varian</h4>
+                    <p>Mengembangkan varian rasa modern dan riset telur rendah kolesterol.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h3>Produk Unggulan</h3>
+                <p>Pilih varian favoritmu</p>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-img-placeholder" style="background-color: #ffeaa7;">Original</div>
+                    <div class="product-info">
+                        <h4>Original Heritage</h4>
+                        <p>Telur asin masir dengan tingkat keasinan yang pas.</p>
+                        <span class="price">Rp 5.000 / butir</span>
+                        <button class="btn-buy" onclick="addToCart('Original')">Beli</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-placeholder" style="background-color: #ff7675;">Spicy</div>
+                    <div class="product-info">
+                        <h4>Spicy Volcano</h4>
+                        <p>Sensasi pedas meresap hingga ke dalam kuning telur.</p>
+                        <span class="price">Rp 6.000 / butir</span>
+                        <button class="btn-buy" onclick="addToCart('Spicy')">Beli</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img-placeholder" style="background-color: #74b9ff;">Low Chol</div>
+                    <div class="product-info">
+                        <h4>Low Cholesterol</h4>
+                        <p>Hasil riset terbaru, aman dan sehat (Coming Soon).</p>
+                        <span class="price">Rp 7.000 / butir</span>
+                        <button class="btn-buy" onclick="addToCart('Low Chol')">Pre-Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Telur Asin Nusantara</h3>
+                    <p>Inovasi Agrotech Mahasiswa Polman Bandung.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontak</h4>
+                    <p><i class="fas fa-envelope"></i> agro.egg55@gmail.com</p>
+                    <p><i class="fab fa-facebook"></i> Agro Egg</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Bandung, Jawa Barat</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Telur Asin Nusantara. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
