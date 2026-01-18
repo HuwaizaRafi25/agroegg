@@ -1,154 +1,249 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Telur Asin Nusantara - Agrotech Innovation</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telur Asin Nusantara - Sinergi Inovasi Pangan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="container">
-            <h1 class="logo">Telur Asin Nusantara</h1>
-            <ul class="nav-links">
-                <li><a href="#home">Beranda</a></li>
-                <li><a href="#about">Tentang Kami</a></li>
-                <li><a href="#process">Teknologi</a></li>
-                <li><a href="#products">Produk</a></li>
-                <li><a href="#contact">Kontak</a></li>
-            </ul>
-            <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
+      <div class="container nav-wrapper">
+        <a href="#" class="logo">
+          <span class="logo-icon"><i class="fas fa-egg"></i></span>
+          Telur Asin Nusantara
+        </a>
+        <div class="nav-links">
+          <a href="#about">Tentang Kami</a>
+          <a href="#ecosystem">Ekosistem</a>
+          <a href="#process">Proses</a>
+          <a href="#products">Produk</a>
+          <a href="#contact" class="btn-nav">Hubungi Kami</a>
         </div>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+      </div>
     </nav>
 
-    <section id="home" class="hero">
-        <div class="container hero-content">
-            <div class="hero-text">
-                <h2>Inovasi Rasa,<br>Berbasis Riset Ilmiah.</h2>
-                <p>Dari laboratorium Politeknik Manufaktur Bandung ke meja makan Anda. Telur asin premium dengan integrasi teknologi hulu ke hilir.</p>
-                <a href="#products" class="btn">Pesan Sekarang</a>
-            </div>
-            <div class="hero-image">
-                <img src="logo.png" alt="Logo Telur Asin Nusantara" class="floating-logo" style="border-radius: 50%;"> 
-            </div>
+    <header class="hero">
+      <div class="container hero-container">
+        <div class="hero-text fade-in-up">
+          <span class="tagline">Hilirisasi Teknologi Pangan</span>
+          <h1>Sinergi Tradisi & <br />Inovasi Ilmiah.</h1>
+          <p>
+            Membangun ekosistem bisnis telur asin berkelanjutan melalui
+            kolaborasi Triple Helix: Akademisi, Bisnis dan Komunitas.
+          </p>
+          <div class="hero-buttons">
+            <a href="#ecosystem" class="btn btn-primary">Pelajari Model Kami</a>
+            <a href="#products" class="btn btn-secondary">Lihat Produk</a>
+          </div>
         </div>
+        <div class="hero-visual fade-in-up delay-200">
+          <svg viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill="#D4A017"
+              d="M52.6,-66.5C64.1,-53.1,66.5,-32.6,70.4,-12.1C74.4,8.4,79.9,28.8,73.6,45C67.3,61.2,49.1,73.1,31.2,75.1C13.2,77,-4.5,69,-20.8,61.3C-37.2,53.6,-52.2,46.2,-61.8,33.7C-71.3,21.2,-75.4,3.6,-71,-11C-66.6,-25.7,-53.9,-37.3,-40.6,-50.4C-27.4,-63.5,-13.7,-78,3.4,-82.1C20.6,-86.2,41.2,-79.9,52.6,-66.5Z"
+              transform="translate(100 100)"
+            />
+          </svg>
+          <img src="pic.png" alt="Telur Asin Nusantara" style="width: 720px; position: absolute; left: -40px; top: 128px;" />
+        </div>
+      </div>
+    </header>
+
+    <section class="stats">
+      <div class="container stats-wrapper">
+        <div class="stat-item">
+          <h2>15+</h2>
+          <p>Mitra Peternak CisKul</p>
+        </div>
+        <div class="stat-item">
+          <h2>>80%</h2>
+          <p>Produksi Pakan Mandiri</p>
+        </div>
+        <div class="stat-item">
+          <h2>3</h2>
+          <p>Pilar Kolaborasi</p>
+        </div>
+      </div>
     </section>
 
-    <section id="about" class="section">
-        <div class="container">
-            <div class="section-header">
-                <h3>Tentang Kami</h3>
-                <p>Agrotech & Pemberdayaan</p>
-            </div>
-            <div class="about-grid">
-                <div class="about-card">
-                    <i class="fas fa-flask"></i>
-                    <h4>Lahir dari Riset</h4>
-                    <p>Dikembangkan oleh tim mahasiswa Politeknik Manufaktur Bandung (Polman) melalui penelitian mendalam untuk menghasilkan telur asin berkualitas tinggi.</p>
-                </div>
-                <div class="about-card">
-                    <i class="fas fa-leaf"></i>
-                    <h4>Pakan Azolla Mandiri</h4>
-                    <p>Kami memproduksi pakan berbasis Azolla secara mandiri. Nutrisi terukur, biaya efisien, menghasilkan kuning telur yang lebih masir dan sehat.</p>
-                </div>
-                <div class="about-card">
-                    <i class="fas fa-users"></i>
-                    <h4>Sistem Inti Plasma</h4>
-                    <p>Berkolaborasi dengan peternak dan pengrajin lokal. Kami memberikan standar operasional prosedur (SOP) ketat untuk menjamin kesejahteraan mitra.</p>
-                </div>
-            </div>
+    <section id="ecosystem" class="section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="subtitle">Kolaborasi Triple Helix</span>
+          <h2>Ekosistem Kemitraan</h2>
+          <p>
+            Kami tidak berjalan sendiri. Ini adalah sinergi besar untuk dampak
+            yang luas.
+          </p>
         </div>
+
+        <div class="partners-grid">
+          <div class="partner-card">
+            <div class="icon-box academic">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>Akademisi</h3>
+            <p class="partner-name">Polman Bandung & Unpad</p>
+            <p class="desc">
+              Penyedia basis riset teknologi pakan, inovasi pengolahan, dan
+              pendampingan ilmiah.
+            </p>
+          </div>
+
+          <div class="partner-card featured">
+            <div class="icon-box community"><i class="fas fa-users"></i></div>
+            <h3>Komunitas (Plasma)</h3>
+            <p class="partner-name">Peternak Bebek CisKul</p>
+            <p class="desc">
+              Mitra produksi utama di Cisaranten Kulon. Penerap SOP beternak dan
+              pengolahan terstandar.
+            </p>
+          </div>
+
+          <div class="partner-card">
+            <div class="icon-box business">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <h3>Bisnis (Inti)</h3>
+            <p class="partner-name">PT. Pesona Jaya Karya</p>
+            <p class="desc">
+              Bertindak sebagai <i>off-taker</i>, pengendali mutu (QC),
+              manajemen branding, dan pemasaran global.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="process" class="section alt-bg">
-        <div class="container">
-            <div class="section-header">
-                <h3>Standar Kualitas</h3>
-                <p>Presisi dalam setiap butir</p>
-            </div>
-            <div class="process-steps">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <h4>Presisi Nutrisi</h4>
-                    <p>Bebek mendapat jatah pakan terukur setiap hari demi kualitas telur yang konsisten.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <h4>Standarisasi Proses</h4>
-                    <p>Tingkat keasinan, suhu pemasakan, hingga durasi pemeraman diatur secara ilmiah.</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <h4>Inovasi Varian</h4>
-                    <p>Mengembangkan varian rasa modern dan riset telur rendah kolesterol.</p>
-                </div>
-            </div>
+    <section id="process" class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <span class="subtitle">Dari Hulu ke Hilir</span>
+          <h2>Alur Transformasi Nilai</h2>
         </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <span class="step">Input</span>
+              <h4>Sumber Daya Premium</h4>
+              <p>
+                Telur bebek segar dari 15+ peternak mitra, pakan berbasis
+                Azolla, dan SOP garam terukur.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <span class="step">Process</span>
+              <h4>Teknologi Pengasinan</h4>
+              <p>
+                Pemeraman (Curing) presisi, perebusan suhu terkontrol,
+                menghasilkan tekstur "Masir" (berpasir & berminyak).
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <span class="step">Output</span>
+              <h4>Produk Bernilai Tinggi</h4>
+              <p>
+                Telur Asin Nusantara berbagai varian dengan sertifikasi Halal &
+                PIRT, siap edar di pasar modern.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item highlight">
+            <div class="timeline-content">
+              <span class="step">Outcome</span>
+              <h4>Dampak Sosial Ekonomi</h4>
+              <p>
+                Kesejahteraan Peternak CisKul meningkat, terciptanya Desa Binaan
+                & Destinasi Edu-Wisata.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="products" class="section">
-        <div class="container">
-            <div class="section-header">
-                <h3>Produk Unggulan</h3>
-                <p>Pilih varian favoritmu</p>
-            </div>
-            <div class="product-grid">
-                <div class="product-card">
-                    <div class="product-img-placeholder" style="background-color: #ffeaa7;">Original</div>
-                    <div class="product-info">
-                        <h4>Original Heritage</h4>
-                        <p>Telur asin masir dengan tingkat keasinan yang pas.</p>
-                        <span class="price">Rp 5.000 / butir</span>
-                        <button class="btn-buy" onclick="addToCart('Original')">Beli</button>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-img-placeholder" style="background-color: #ff7675;">Spicy</div>
-                    <div class="product-info">
-                        <h4>Spicy Volcano</h4>
-                        <p>Sensasi pedas meresap hingga ke dalam kuning telur.</p>
-                        <span class="price">Rp 6.000 / butir</span>
-                        <button class="btn-buy" onclick="addToCart('Spicy')">Beli</button>
-                    </div>
-                </div>
-                <div class="product-card">
-                    <div class="product-img-placeholder" style="background-color: #74b9ff;">Low Chol</div>
-                    <div class="product-info">
-                        <h4>Low Cholesterol</h4>
-                        <p>Hasil riset terbaru, aman dan sehat (Coming Soon).</p>
-                        <span class="price">Rp 7.000 / butir</span>
-                        <button class="btn-buy" onclick="addToCart('Low Chol')">Pre-Order</button>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="subtitle">Inovasi Rasa</span>
+          <h2>Koleksi Varian Kami</h2>
         </div>
+
+        <div class="products-scroller">
+          <div class="product-card">
+            <div class="product-img color-1">
+              <img src="regularEgg.png" width="240" alt="Original Masir" />
+              <h1>Original Masir</h1>
+            </div>
+            <div class="product-details">
+              <h4>Original Masir</h4>
+              <p>Klasik. Kuning telur berpasir, berminyak, gurih pas.</p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img color-2">
+              <img src="spicyEgg.png" width="240" alt="Spicy Volcano" />
+              <h1>Spicy Volcano</h1>
+            </div>
+            <div class="product-details">
+              <h4>Spicy Volcano</h4>
+              <p>Sensasi pedas menyengat yang meresap hingga ke dalam.</p>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img color-4">
+              <img src="pindangEgg.png" width="240" alt="Roasted Delight" />
+              <h1>Pindang Flavour</h1>
+            </div>
+            <div class="product-details">
+              <h4>Pindang Flavour</h4>
+              <p>Cita rasa pindang yang khas dan menggugah selera.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer id="contact">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Telur Asin Nusantara</h3>
-                    <p>Inovasi Agrotech Mahasiswa Polman Bandung.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Kontak</h4>
-                    <p><i class="fas fa-envelope"></i> agro.egg55@gmail.com</p>
-                    <p><i class="fab fa-facebook"></i> Agro Egg</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Bandung, Jawa Barat</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Telur Asin Nusantara. All rights reserved.</p>
-            </div>
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <h3>Telur Asin Nusantara</h3>
+          <p>Bagian dari PT. Pesona Jaya Karya.</p>
+          <p><i>Membawa Cita Rasa Cisaranten ke Lidah Dunia.</i></p>
         </div>
+        <div class="footer-contact">
+          <h4>Hubungi Kami</h4>
+          <p><i class="fas fa-map-marker-alt"></i> Cisaranten Kulon, Bandung</p>
+          <p><i class="fas fa-envelope"></i> agro.egg55@gmail.com</p>
+          <p><i class="fab fa-facebook"></i> Agro Egg</p>
+        </div>
+        <div class="footer-legal">
+          <h4>Dukungan</h4>
+          <p>Politeknik Manufaktur Bandung</p>
+          <p>Universitas Padjadjaran</p>
+          <p>Komunitas Peternak Telur CisKul</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Telur Asin Nusantara. All Rights Reserved.</p>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
